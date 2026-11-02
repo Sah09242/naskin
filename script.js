@@ -219,6 +219,7 @@
         </div>
         <div class="product-body">
           <div class="stars" role="img" aria-label="Rated ${p.rating} out of 5 stars from ${p.reviews} reviews">${starString(p.rating)}</div>
+          <span class="product-brand">NaSkin</span>
           <h3>${p.name}</h3>
           <p>${p.desc}</p>
           <div class="product-foot">
@@ -331,7 +332,7 @@
       cForm.reset();
     });
   }
- })();
+})();
 
 /* ---------- Navigation ---------- */
 (function () {
