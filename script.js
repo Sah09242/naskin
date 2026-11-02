@@ -215,11 +215,11 @@
       card.innerHTML = `
         <div class="product-media">
           <img src="${p.img}" alt="NaSkin ${p.name}" loading="lazy" />
+          <span class="product-image-brand">NaSkin</span>
           ${p.badge ? `<span class="badge">${p.badge}</span>` : ""}
         </div>
         <div class="product-body">
           <div class="stars" role="img" aria-label="Rated ${p.rating} out of 5 stars from ${p.reviews} reviews">${starString(p.rating)}</div>
-          <span class="product-brand">NaSkin</span>
           <h3>${p.name}</h3>
           <p>${p.desc}</p>
           <div class="product-foot">
